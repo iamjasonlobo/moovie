@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		05A3747429B6CCF100B8D435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3747329B6CCF100B8D435 /* AppDelegate.swift */; };
 		05A3747629B6CCF100B8D435 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3747529B6CCF100B8D435 /* SceneDelegate.swift */; };
-		05A3747829B6CCF100B8D435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3747729B6CCF100B8D435 /* ViewController.swift */; };
 		05A3747B29B6CCF100B8D435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A3747929B6CCF100B8D435 /* Main.storyboard */; };
 		05A3747D29B6CCF300B8D435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A3747C29B6CCF300B8D435 /* Assets.xcassets */; };
 		05A3748029B6CCF300B8D435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A3747E29B6CCF300B8D435 /* LaunchScreen.storyboard */; };
+		05A3748829B6CD6400B8D435 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3748729B6CD6400B8D435 /* MoviesViewController.swift */; };
+		05A3748A29B6CDBC00B8D435 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3748929B6CDBC00B8D435 /* DetailViewController.swift */; };
+		05A3748D29B6E2D600B8D435 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3748C29B6E2D600B8D435 /* Movie.swift */; };
+		05A3748F29B6EBC100B8D435 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3748E29B6EBC100B8D435 /* MovieCell.swift */; };
+		05A3749229B6EC7300B8D435 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 05A3749129B6EC7300B8D435 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05A3747029B6CCF100B8D435 /* moovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A3747329B6CCF100B8D435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A3747529B6CCF100B8D435 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05A3747729B6CCF100B8D435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05A3747A29B6CCF100B8D435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A3747C29B6CCF300B8D435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A3747F29B6CCF300B8D435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A3748129B6CCF300B8D435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A3748729B6CD6400B8D435 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		05A3748929B6CDBC00B8D435 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		05A3748C29B6E2D600B8D435 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		05A3748E29B6EBC100B8D435 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A3749229B6EC7300B8D435 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +64,26 @@
 		05A3747229B6CCF100B8D435 /* moovie */ = {
 			isa = PBXGroup;
 			children = (
+				05A3748B29B6E29A00B8D435 /* Models */,
+				05A3748729B6CD6400B8D435 /* MoviesViewController.swift */,
+				05A3748E29B6EBC100B8D435 /* MovieCell.swift */,
+				05A3748929B6CDBC00B8D435 /* DetailViewController.swift */,
 				05A3747329B6CCF100B8D435 /* AppDelegate.swift */,
 				05A3747529B6CCF100B8D435 /* SceneDelegate.swift */,
-				05A3747729B6CCF100B8D435 /* ViewController.swift */,
 				05A3747929B6CCF100B8D435 /* Main.storyboard */,
 				05A3747C29B6CCF300B8D435 /* Assets.xcassets */,
 				05A3747E29B6CCF300B8D435 /* LaunchScreen.storyboard */,
 				05A3748129B6CCF300B8D435 /* Info.plist */,
 			);
 			path = moovie;
+			sourceTree = "<group>";
+		};
+		05A3748B29B6E29A00B8D435 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05A3748C29B6E2D600B8D435 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +102,9 @@
 			dependencies = (
 			);
 			name = moovie;
+			packageProductDependencies = (
+				05A3749129B6EC7300B8D435 /* Nuke */,
+			);
 			productName = moovie;
 			productReference = 05A3747029B6CCF100B8D435 /* moovie.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 05A3746729B6CCF100B8D435;
+			packageReferences = (
+				05A3749029B6EC7300B8D435 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 05A3747129B6CCF100B8D435 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A3747829B6CCF100B8D435 /* ViewController.swift in Sources */,
 				05A3747429B6CCF100B8D435 /* AppDelegate.swift in Sources */,
+				05A3748D29B6E2D600B8D435 /* Movie.swift in Sources */,
+				05A3748F29B6EBC100B8D435 /* MovieCell.swift in Sources */,
+				05A3748A29B6CDBC00B8D435 /* DetailViewController.swift in Sources */,
 				05A3747629B6CCF100B8D435 /* SceneDelegate.swift in Sources */,
+				05A3748829B6CD6400B8D435 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05A3749029B6EC7300B8D435 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05A3749129B6EC7300B8D435 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A3749029B6EC7300B8D435 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05A3746829B6CCF100B8D435 /* Project object */;
 }
