@@ -17,14 +17,13 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        // Load the image located at the `artworkUrl100` URL and set it on the image view.
-        Nuke.loadImage(with: movie.movieBanner, into: movieBannerView)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w400/" + movie.backdrop_path.absoluteString)!, into: movieBannerView)
 
         // Set labels with the associated movie values.
-        movieNameLabel.text = movie.movieName
-        descriptionLabel.text = movie.movieDescription
-        avgVoteLabel.text = String(movie.averageVote)
-        votesLabel.text = String(movie.voteCount)
+        movieNameLabel.text = movie.original_title
+        descriptionLabel.text = movie.overview
+        avgVoteLabel.text = String(movie.vote_average)
+        votesLabel.text = String(movie.vote_count)
         popularityLabel.text = String(movie.popularity)
     }
     
@@ -35,15 +34,5 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var votesLabel: UILabel!
     @IBOutlet weak var popularityLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }

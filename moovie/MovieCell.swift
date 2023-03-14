@@ -28,10 +28,10 @@ class MovieCell: UITableViewCell {
     
     ////  Configures cell for given movei
     func configure(with movie: Movie) {
-        movieNameLabel.text = movie.movieName
-        movieDescriptionLabel.text = movie.movieDescription
+        movieNameLabel.text = movie.original_title
+        movieDescriptionLabel.text = movie.overview
 
         // Load image async via Nuke library image loading helper method
-        Nuke.loadImage(with: movie.movieThumbnail, into: movieThumbnailView)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w200/" + movie.poster_path.absoluteString)!, into: movieThumbnailView)
     }
 }
