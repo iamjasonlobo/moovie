@@ -1,3 +1,37 @@
+# Project 3 - *MOOVIE*
+
+Submitted by: **Jason Lobo**
+
+**MOOVIE** is a movie browsing app that allows users to browse through lastest movies being released and get to know more about them.
+They get access to stats like votes, average votes as well as popularity of the movie through the TMDB API and the movies can also be seen in a gallery esque view.
+
+Time spent: **5** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [x] App has a collection view with the same list of movies
+- [x] Uses a tab bar controller to switch between collection view and table view screens
+ 
+The following **optional** features are implemented:
+
+- [x] Make an additional network call to another end-point.	
+- [ ] Allow users to scroll when context items are off-screen (table view implemention)
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/rhNE7D6.gif' title='Video Walkthrough' width='MOOVIE App' alt='Video Walkthrough' />
+
+------
+
 # Project 2 - *MOOVIE*
 
 Submitted by: **Jason Lobo**
