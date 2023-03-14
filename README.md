@@ -29,6 +29,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/rhNE7D6.gif' title='Video Walkthrough' width='MOOVIE App' alt='Video Walkthrough' />
+https://i.imgur.com/rhNE7D6.gif
 
 ------
 
