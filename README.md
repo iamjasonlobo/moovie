@@ -16,8 +16,7 @@ The following functionality is implemented in the app:
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src="https://i.imgur.com/WrJqzDG.gif" title='Video Walkthrough' alt='Video Walkthrough' />
-Link: https://i.imgur.com/WrJqzDG.gif
+https://github.com/iamjasonlobo/moovie/assets/105331420/858f96b6-0105-48a0-a55b-6dcb402c3c70
 
 ## License
 
